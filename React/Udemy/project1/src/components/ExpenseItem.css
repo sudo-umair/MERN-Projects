@@ -1,0 +1,42 @@
+.expense-row{
+  width: 50%;
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.expense__name{
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+  background-color: black;
+}
+
+.expense-row__date{
+  background-color: black;
+}
+
+.expense-row__name{
+  background-color: black;
+}
+
+.expense-row__price{
+  background-color: black;
+}
+
+.expense__price{
+  border-color: white;
+  color: white;
+  background-color: purple;
+  border-radius: 10px;
+  padding: 5px 15px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+

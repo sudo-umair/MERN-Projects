@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.input__age{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.age{
+  padding: 10px;
+  font-size: 14px;
+}
+
+#convert{
+  margin: 10px 0px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.result{
+  display: flex;
+  flex-direction: row;
+}
+
+#output{
+  padding-left: 5px;
+}

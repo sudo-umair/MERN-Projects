@@ -1,0 +1,41 @@
+.new-expense {
+  background: purple;
+  padding: 30px 50px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.form-new-expense {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-expense-row label {
+  width: 50%;
+  margin: 0 10px;
+  color: aliceblue;
+  font-weight: bold;
+}
+.new-expense-row input {
+  width: 80%;
+  margin: 0 10px;
+  padding: 7px;
+  border-radius: 2px;
+  border-width: 0px;
+}
+
+.new-expense-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: purple;
+}
+
+.btn-add-expense {
+  background: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

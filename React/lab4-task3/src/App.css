@@ -1,0 +1,12 @@
+.main{
+  text-align: center;
+}
+
+.box{
+  display: inline;
+  text-align: center;
+}
+
+.photo{
+  height: 200px;
+}
